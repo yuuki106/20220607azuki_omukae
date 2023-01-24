@@ -4,18 +4,18 @@
     float: none;
 	position: static;
 }
+
 .iphonever{
     display: none;
 }
-
-img {
-	max-width: 100%;
-	height: auto;
-
+.phone{
+    display: none;
 }
+
 header{
     background-color: black;
     height: 70px;
+    width: 1440px;
     
 }
 .container{
@@ -37,6 +37,7 @@ header{
     background-color: grey;
     height: 70px;
     text-align: center;
+    width: 1440px;
 }
 .swich-wrapper a{
     padding: 0 75px;
@@ -54,21 +55,23 @@ header{
     opacity: 1;
 }
 .news-wrapper{
-    background-image: url(https://github.com/yuuki106/20220607azuki_omukae/blob/main/back_ground.jpg?raw=true);
-    background-size: contain;
-    height: 1000px;
+    background-image: url(/img/back_ground.jpg);
+    background-size: cover;
+    height: 100%;
     border-top: 20px solid black;
+    width: 1440px;
 }
 
 .news-text{
     background-color:rgba(0, 0, 0, 0.814);
     width: 1200px;
     margin: auto;
-    height: 1000px;
+    height: 100%;
     text-align: center;
+    padding-bottom: 50px;
 }
 .news-text h1{
-    color: azure;
+    color: white;
     padding-top: 50px;
     font-size: 20px;
     font-family: "azuki_font";
@@ -89,8 +92,9 @@ header{
     padding-bottom: 50px;
     color: white;
 }
-.azukiphoto{
-    height
+
+.iphone-swich{
+    display: none;
 }
 
 
