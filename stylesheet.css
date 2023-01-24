@@ -55,7 +55,7 @@ header{
     opacity: 1;
 }
 .news-wrapper{
-    background-image: url(/img/back_ground.jpg);
+    background-image: url(https://github.com/yuuki106/20220607azuki_omukae/blob/main/back_ground.jpg?raw=true);
     background-size: cover;
     height: 100%;
     border-top: 20px solid black;
