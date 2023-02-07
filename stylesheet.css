@@ -14,35 +14,33 @@
 
 header{
     background-color: black;
-    height: 70px;
-    width: 1440px;
-    
-}
-.container{
+    height: 80px;
     width: 1440px;
     
 }
 .header-left img{
-    width: 120px;
     float: left;
+    margin-top: 6px;
+    margin-left: 20px;
 }
 .header-left h3{
-    color: azure;
-    padding-top: 21px;
+    color: white;
     float: left;
+    padding-top: 28px;
+    padding-left: 20px;
 }
 
 
 .swich-wrapper{
     background-color: grey;
-    height: 70px;
     text-align: center;
     width: 1440px;
+    border-bottom: 10px solid black;
+   
 }
 .swich-wrapper a{
-    padding: 0 75px;
+    padding: 20px 75px;
     background-color: white;
-    line-height: 70px;
     display: inline-block;
     color: black;
     opacity: 0.6;
@@ -54,11 +52,15 @@ header{
 .swich-wrapper a:hover{
     opacity: 1;
 }
+
+.news-label{
+    display: none;
+}
+
 .news-wrapper{
-    background-image: url(https://github.com/yuuki106/20220607azuki_omukae/blob/main/back_ground.jpg?raw=true);
+    background-image: url(/img/back_ground.jpg);
     background-size: cover;
     height: 100%;
-    border-top: 20px solid black;
     width: 1440px;
 }
 
