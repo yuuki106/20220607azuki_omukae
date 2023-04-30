@@ -67,10 +67,10 @@
         padding-top: 80px;
     }
     .news-inner h1{
-        width: 90%;
+        width: 95%;
         margin: 50px auto 50px auto;
         line-height: 35px;
-        font-size:35px;
+        font-size:30px;
         background: linear-gradient(transparent 0%, transparent 0%, hsla(0, 0%, 100%, 0.082) 80%, #00ff1a 100%);
     }
 
